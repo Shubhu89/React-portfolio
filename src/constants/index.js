@@ -7,6 +7,9 @@ export const HERO_CONTENT = `I am a passionate frontend developer with a knack f
 
 export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
+export const TERMS_TEXT = `Welcome to our website. These terms and conditions outline the rules and regulations for the use of our website.
+        By accessing this website, we assume you accept these terms and conditions. Do not continue to use the website if you do not agree to all of the terms and conditions stated on this page.`
+
 export const EXPERIENCES = [
   {
     year: "2023 - Present",
