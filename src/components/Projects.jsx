@@ -10,7 +10,7 @@ const Projects = () => {
         transition={{ duration: 1.5 }}
         
         className="my-20 text-center text-4xl"> <a href="dev.easywholesale.com">Projects</a> </motion.h1>
-        <div>{PROJECTS.map((project, index) => (
+        <div>{PROJECTS.map((project, index,link) => (
             <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
                 <motion.div 
                   whileInView={{ opacity: 1, x: 0 }}
@@ -32,7 +32,8 @@ const Projects = () => {
                 className="w-full max-w-xl lg:w-3/4">
                     <h6 className="mb-2 font-semibold" >{project.title}</h6>
                     <p className="mb-4 text-neutral-400">{project.description}</p>
-                    <p className="mb-4 text-neutral-400">{project.link} </p>
+                    <p className="mb-4 text-neutral-400">
+                     <a href= {project.link}> {project.link}</a> </p>
                 
                     
                     {project.technologies.map((tech,index)=>(
