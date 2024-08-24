@@ -6,8 +6,7 @@ import  Technologies  from "./components/Technologies";
 import Experiance from "./components/Experiance";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
-import TermsAndConditions from "./components/Terms";
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+
 
 
 const App = () => {
@@ -24,7 +23,7 @@ const App = () => {
           <Experiance />
           < Projects/>
           <Contact/>
-          <TermsAndConditions />
+        
           
           
         </div>
